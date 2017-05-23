@@ -1,0 +1,18 @@
+@import "reset.scss";
+@import "global.scss";
+
+.page {
+    background-color: $background-color_-_app__page;
+    min-height: 100%;
+}
+
+.clear {
+    display: inline-block;
+}
+
+.content {
+    margin: 30px;
+    padding: 13px;
+    box-shadow: 0px 0px 4px $box-shadow-color_-_app__page;
+    background-color: $background-color_-_app__content;
+}

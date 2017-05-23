@@ -1,0 +1,48 @@
+@import "global.scss";
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tr {
+    display: table-row;
+}
+
+.tr:nth-child(2n) {
+    background-color: $background-color_-_users-table-tr--nth-child-2n;
+}
+
+.tr:nth-child(2n+1) {
+    background-color: $background-color_-_users-table-tr--nth-child-2n-1;
+}
+
+.td {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $border-color_-_users-table-td;
+}
+
+.th {
+    background-color: $background-color_-_users-table-th;
+    display: table-cell;
+    padding: 10px 5px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 1px;
+    border-color: $border-color_-_users-table-th;
+    text-align: center;
+    cursor: pointer;
+}
+
+.th--primary-id {
+    max-width: 300px !important;
+}
+
+.td--primary-id {
+    max-width: 300px !important;
+}

@@ -1,0 +1,62 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p,
+a, img, sub, sup,
+b, u, i, center,
+ol, ul, li,
+form, label,
+table, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    vertical-align: baseline;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    height: 100%;
+    overflow: auto;
+
+
+    font-size: 11.5pt;
+
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+    color: #7F7F7F;
+}
+
+/*
+button, button:active, button:focus, button:hover {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-spacing: 0;
+}
+*/
+
+*:focus {
+    outline: none;
+}
+
+.fa {
+    display: inline-block;
+}
+* {
+    word-break: break-word;
+    word-wrap: break-word;
+}

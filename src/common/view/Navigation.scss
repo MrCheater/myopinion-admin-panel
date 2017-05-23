@@ -1,0 +1,12 @@
+@import "global.scss";
+
+.root {
+    background-color: $background-color_-_navigation;
+    padding: 20px 40px;
+}
+
+.link {
+    margin-right: 20px;
+    color: $color_-_navigation__link;
+    font-weight: bold;
+}
